@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    <script src="https://kit.fontawesome.com/dd1f2e8d4f.js" crossorigin="anonymous"></script>
+    <title>Puoq NT</title>
+</head>
+<body>
+    <header>
+        <div class="nav-bar container">
+            <div class="navbar-menu-left">
+                <div class="menu-home">
+                    <div>
+                        <img src="./assets/icons/logo.png" alt="logo" class="icon-logo">
+                        <a href="#"><h2 style="margin-left: 10px;">Puoq NT</h2></a>
+                    </div>
+                    <ul class="menu-list">
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Bài viết</a></li>
+                        <li><a href="#">Dự án</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-menu-right">
+                <div class="menu-search">
+                    <div class="search-top">
+                        <span class="material-symbols-outlined icon-search">
+                            search
+                        </span>
+                        <p>Tìm Kiếm</p>
+                    </div>
+
+                    <div class="search-popup">
+                        <form action="#" method="get">
+                            <h3 class="search-tittle">Bạn muốn tìm kiếm điều gì?</h3>
+                            <div class="search-box">
+                                <input type="search" class="search-field" name="search" placeholder="Tìm kiếm...">
+                                <button type="submit" class="btn-search-submit">Tìm kiếm</button>
+                            </div>
+                            <div class="popular-searches">
+                                <a href="#">Style</a>
+                                ,
+                                <a href="#">Công nghệ</a>
+                                ,
+                                <a href="#">Các tip</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+    <div class="category-menu container">
+        <div class="category-item">
+            <i class="fa-solid fa-camera"></i>
+            <span>Nhiếp ảnh</span>
+        </div>
+        <div class="category-item">
+            <i class="fa-solid fa-burger"></i>
+            <span>Ẩm thực & Đồ uống</span>
+        </div>
+        <div class="category-item">
+            <i class="fa-solid fa-shirt"></i>
+            <span>Thời trang & Style</span>
+        </div>
+        <div class="category-item">
+            <i class="fa-solid fa-users"></i>
+            <span>Mối quan hệ</span>
+        </div>
+        <div class="category-item">
+            <i class="fa-solid fa-pen"></i>
+            <span>Thiết kế</span>
+        </div>
+        <div class="category-item">
+            <i class="fa-solid fa-car"></i>
+            <span>Du lịch</span>
+        </div>
+    </div>
+
+    <div class="hero container">
+        <div class="hero-banner">
+            <div class="hero-slider" id="hero-slider">
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <img src="assets/images/banner-1.jpg" alt="banner-1" class="hero-banner-image">
+                    <div class="caption">
+                        <h2>Sự thành công thường đến cho những người không bao giờ từ bỏ</h2>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="assets/images/banner-2.jpg" alt="banner-2" class="hero-banner-image">
+                    <div class="caption">
+                        <h2>Đừng để những thất bại nhỏ chặn đứng ước mơ lớn của bạn</h2>
+                    </div>
+                </div>
+            </div>
+    
+            <button class="btn-nav prev" aria-label="Ảnh trước" id="prevBtn">&#8592;</button>
+            <button class="btn-nav next" aria-label="Ảnh sau" id="nextBtn">&#8594;</button>
+            
+            <div class="dots" id="dots" role="tablist" aria-label="Chọn ảnh"></div>
+        </div>
+        <div class="hero-spacer"></div>
+        <div class="hero-info">
+            <div class="hero-intro">
+                <h3>Chào mừng đến với blog của tôi!👋</h3>
+                <img src="assets/images/avatar.jpg" alt="avatar" class="hero-avatar">
+                <h1>Nguyễn Thanh Phương</h1>
+                <p>Tôi là một lập trình viên yêu thích web development và chia sẻ kiến thức qua blog.</p>
+            </div>
+            <div class="hero-social">
+                <h3>Social Network</h3>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-blog container">
+        <div class="card-blog-section">
+            <div class="card-item">
+                <div class="card-item-header">
+                    <div class="category-tag">
+                        <a href="#" rel="tag">Thiết kế</a>
+                    </div>
+                    <h2 class="item-title">
+                        <a href="#">Bộ sưu tập bàn phím mới từ Keychron năm 2024</a>
+                    </h2>
+                </div>
+                <div class="card-item-content">
+                    <div class="post-image">
+                        <a href="#">
+                            <img src="assets/images/item_img_5.png" alt="item" class="item-image">
+                        </a>
+                    </div>
+                    <div class="post-describe">
+                        <p>
+                            Bạn có mệt mỏi vì cảm thấy bình thường? Bạn muốn truyền vào cuộc sống của bạn với một chút thanh lịch,
+                            mà không ảnh hưởng đến sự thoải mái? ...
+                        </p>
+                    </div>
+                    <div class="post-item-meta">
+                        <div class="posted-date">
+                            <span>19 Tháng 8, 2025 </span>
+                            <b>by PuoqNT</b>
+                        </div>
+                        <div class="coment-count">
+                            <i class="fa-solid fa-message"></i>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-item">
+                <div class="card-item-header">
+                    <div class="category-tag">
+                        <a href="#" rel="tag">Thời trang & Style</a>
+                    </div>
+                    <h2 class="item-title">
+                        <a href="#">Blazer và giày thể thao: Một trang phục giản dị để mang vào mùa thu </a>
+                    </h2>
+                </div>
+                <div class="card-item-content">
+                    <div class="post-image">
+                        <a href="#">
+                            <img src="assets/images/item_img_2.png" alt="item" class="item-image">
+                        </a>
+                    </div>
+                    <div class="post-describe">
+                        <p>
+                            Mùa thu là mùa yêu thích của tôi vì rất nhiều lý do: thời tiết, hương vị, nến thơm, lá. Nhưng tôi đặc
+                            biệt yêu thích ...
+                        </p>
+                    </div>
+                    <div class="post-item-meta">
+                        <div class="posted-date">
+                            <span>19 Tháng 8, 2025 </span>
+                            <b>by PuoqNT</b>
+                        </div>
+                        <div class="coment-count">
+                            <i class="fa-solid fa-message"></i>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-item">
+                <div class="card-item-header">
+                    <div class="category-tag">
+                        <a href="#" rel="tag">Thời trang & Style</a>
+                    </div>
+                    <h2 class="item-title">
+                        <a href="#">Ưu Đãi Cyber Monday của Nordstrom Đã Đến</a>
+                    </h2>
+                </div>
+                <div class="card-item-content">
+                    <div class="post-image">
+                        <a href="#">
+                            <img src="assets/images/item_img_3.png" alt="item" class="item-image">
+                        </a>
+                    </div>
+                    <div class="post-describe">
+                        <p>
+                            Liệu người bạn được tặng quà có thực sự cần những lớp áo ấm mùa đông mới, là người thích ở nhà và chỉ
+                            sống trong những bộ đồ mặc nhà ấm cúng, hay thích dẫn đầu...
+                        </p>
+                    </div>
+                    <div class="post-item-meta">
+                        <div class="posted-date">
+                            <span>19 Tháng 8, 2025 </span>
+                            <b>by PuoqNT</b>
+                        </div>
+                        <div class="coment-count">
+                            <i class="fa-solid fa-message"></i>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-item">
+                <div class="card-item-header">
+                    <div class="category-tag">
+                        <a href="#" rel="tag">Thiết kế</a>
+                    </div>
+                    <h2 class="item-title">
+                        <a href="#">Đồ ăn tôi luôn mang theo khi đi du lịch</a>
+                    </h2>
+                </div>
+                <div class="card-item-content">
+                    <div class="post-image">
+                        <a href="#">
+                            <img src="assets/images/item_img_6.png" alt="item" class="item-image">
+                        </a>
+                    </div>
+                    <div class="post-describe">
+                        <p>
+                            Bạn có mệt mỏi vì cảm thấy bình thường? Bạn muốn truyền một chút sang trọng vào cuộc sống của mình, mà không ảnh hưởng đến sự thoải mái?...
+                        </p>
+                    </div>
+                    <div class="post-item-meta">
+                        <div class="posted-date">
+                            <span>19 Tháng 8, 2025 </span>
+                            <b>by PuoqNT</b>
+                        </div>
+                        <div class="coment-count">
+                            <i class="fa-solid fa-message"></i>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-blog-section">
+            <div class="card-item">
+                <div class="card-item-header">
+                    <div class="category-tag">
+                        <a href="#" rel="tag">Thiết kế</a>
+                    </div>
+                    <h2 class="item-title">
+                        <a href="#">Bộ sưu tập bàn phím mới từ Keychron năm 2024</a>
+                    </h2>
+                </div>
+                <div class="card-item-content">
+                    <div class="post-image">
+                        <a href="#">
+                            <img src="assets/images/item_img_5.png" alt="item" class="item-image">
+                        </a>
+                    </div>
+                    <div class="post-describe">
+                        <p>
+                            Bạn có mệt mỏi vì cảm thấy bình thường? Bạn muốn truyền vào cuộc sống của bạn với một chút thanh lịch,
+                            mà không ảnh hưởng đến sự thoải mái? ...
+                        </p>
+                    </div>
+                    <div class="post-item-meta">
+                        <div class="posted-date">
+                            <span>19 Tháng 8, 2025 </span>
+                            <b>by PuoqNT</b>
+                        </div>
+                        <div class="coment-count">
+                            <i class="fa-solid fa-message"></i>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-item">
+                <div class="card-item-header">
+                    <div class="category-tag">
+                        <a href="#" rel="tag">Thời trang & Style</a>
+                    </div>
+                    <h2 class="item-title">
+                        <a href="#">Blazer và giày thể thao: Một trang phục giản dị để mang vào mùa thu </a>
+                    </h2>
+                </div>
+                <div class="card-item-content">
+                    <div class="post-image">
+                        <a href="#">
+                            <img src="assets/images/item_img_2.png" alt="item" class="item-image">
+                        </a>
+                    </div>
+                    <div class="post-describe">
+                        <p>
+                            Mùa thu là mùa yêu thích của tôi vì rất nhiều lý do: thời tiết, hương vị, nến thơm, lá. Nhưng tôi đặc
+                            biệt yêu thích ...
+                        </p>
+                    </div>
+                    <div class="post-item-meta">
+                        <div class="posted-date">
+                            <span>19 Tháng 8, 2025 </span>
+                            <b>by PuoqNT</b>
+                        </div>
+                        <div class="coment-count">
+                            <i class="fa-solid fa-message"></i>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-item">
+                <div class="card-item-header">
+                    <div class="category-tag">
+                        <a href="#" rel="tag">Thời trang & Style</a>
+                    </div>
+                    <h2 class="item-title">
+                        <a href="#">Ưu Đãi Cyber Monday của Nordstrom Đã Đến</a>
+                    </h2>
+                </div>
+                <div class="card-item-content">
+                    <div class="post-image">
+                        <a href="#">
+                            <img src="assets/images/item_img_3.png" alt="item" class="item-image">
+                        </a>
+                    </div>
+                    <div class="post-describe">
+                        <p>
+                            Liệu người bạn được tặng quà có thực sự cần những lớp áo ấm mùa đông mới, là người thích ở nhà và chỉ
+                            sống trong những bộ đồ mặc nhà ấm cúng, hay thích dẫn đầu...
+                        </p>
+                    </div>
+                    <div class="post-item-meta">
+                        <div class="posted-date">
+                            <span>19 Tháng 8, 2025 </span>
+                            <b>by PuoqNT</b>
+                        </div>
+                        <div class="coment-count">
+                            <i class="fa-solid fa-message"></i>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-item">
+                <div class="card-item-header">
+                    <div class="category-tag">
+                        <a href="#" rel="tag">Thiết kế</a>
+                    </div>
+                    <h2 class="item-title">
+                        <a href="#">Đồ ăn tôi luôn mang theo khi đi du lịch</a>
+                    </h2>
+                </div>
+                <div class="card-item-content">
+                    <div class="post-image">
+                        <a href="#">
+                            <img src="assets/images/item_img_6.png" alt="item" class="item-image">
+                        </a>
+                    </div>
+                    <div class="post-describe">
+                        <p>
+                           Bạn có mệt mỏi vì cảm thấy bình thường? Bạn muốn truyền một chút sang trọng vào cuộc sống của mình, mà không ảnh hưởng đến sự thoải mái?...
+                        </p>
+                    </div>
+                    <div class="post-item-meta">
+                        <div class="posted-date">
+                            <span>19 Tháng 8, 2025 </span>
+                            <b>by PuoqNT</b>
+                        </div>
+                        <div class="coment-count">
+                            <i class="fa-solid fa-message"></i>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card_contact container">
+        <div class="card_contact_content">
+            <div class="content_top">
+                <img src="assets/icons/decor.png" alt="decor" class="content_decor">
+            </div>
+            <div class="content_title">
+                <h1>Tôi luôn sẵn sàng kết nối khi bạn cần</h1>
+            </div>
+            <div class="content_describe">
+                <span>Chia sẻ ý tưởng, lan tỏa cảm hứng, cơ hội không giới hạn.
+                    Hãy để tôi giúp bạn biến ý tưởng thành hiện thực
+                </span>
+            </div>
+            <div class="content_tag">
+                <a href="">Web Design</a>
+                <a href="">Mobile App</a>
+                <a href="">Motion Design</a>
+                <a href="">Visual Design</a>
+            </div>
+            <div class="content_bottom">
+                <img src="assets/icons/decor.png" alt="decor" class="content_decor">
+            </div>
+        </div>
+    </div>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-top"></div>
+        <div class="footer-form container">
+            <!-- Logo + giới thiệu -->
+            <div class="footer-about">
+                <h2 class="footer-logo">Puoq NT</h2>
+                <p>
+                    Chia sẻ kiến thức, tin tức và cảm hứng mỗi ngày.
+                    Kết nối cùng chúng tôi để không bỏ lỡ điều gì!
+                </p>
+            </div>
+    
+            <!-- Liên kết nhanh -->
+            <div class="footer-links">
+                <h3>Liên kết</h3>
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Bài viết</a></li>
+                    <li><a href="#">Dự án</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+    
+            <!-- Liên hệ -->
+            <div class="footer-contact">
+                <h3>Liên hệ</h3>
+                <p>Email: contact@gmail.com</p>
+                <p>Hotline: 0123 456 789</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>© 2025 PuoxNT. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/script/script.js"></script>
+</body>
+</html>

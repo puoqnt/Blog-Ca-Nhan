@@ -98,3 +98,16 @@ dots.forEach(d => d.addEventListener("click", resetAutoPlay));
 track.addEventListener("mouseenter", () => clearInterval(autoPlay));
 track.addEventListener("mouseleave", resetAutoPlay);
 // --- End auto slide ---
+
+// AOS cho item-image
+const imagesAOS = document.querySelectorAll(".item-image");
+imagesAOS.forEach(img => {  
+  img.setAttribute("data-aos", "zoom-in");
+  img.setAttribute("data-aos-duration", "1000");
+  img.setAttribute("data-aos-delay", "0");
+});
+AOS.init();
+
+
+
+

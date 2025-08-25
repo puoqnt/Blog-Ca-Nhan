@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="/assets/font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
     <script src="https://kit.fontawesome.com/dd1f2e8d4f.js" crossorigin="anonymous"></script>
+
+    <!-- animation AOS for item-image -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    
     <title>Puoq NT</title>
 </head>
 <body>
@@ -28,7 +33,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="navbar-menu-right">
+            <label class="navbar-menu-right">
                 <div class="menu-search">
                     <div class="search-top">
                         <span class="material-symbols-outlined icon-search">
@@ -54,7 +59,40 @@
                         </form>
                     </div>
                 </div>
+
+                <div class="nav-toggle">
+                    <label for="toggle-menu-check" class="toggle-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                </div>
+
+                <input type="checkbox" id="toggle-menu-check">
+                
+                <label for="toggle-menu-check" class="nav-overlay"></label>
+
+                <div class="nav-mobile-menu">
+                    <div class="nav-mobile-top">
+                        <div class="nav-mobile-logo">
+                            <img src="./assets/icons/logo.png" alt="logo" class="icon-logo">
+                            <a href="#">
+                                <h2 style="margin-left: 10px;">Puoq NT</h2>
+                            </a>
+                        </div>
+
+                        <label for="toggle-menu-check" class="close-icon">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+                    </div>
+                    <ul class="nav-mobile-list">
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Bài viết</a></li>
+                        <li><a href="#">Dự án</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
             </div>
+            
         </div>
     </header>
     <main>
@@ -413,10 +451,10 @@
                 </span>
             </div>
             <div class="content_tag">
-                <a href="">Web Design</a>
-                <a href="">Mobile App</a>
-                <a href="">Motion Design</a>
-                <a href="">Visual Design</a>
+                <a href="#">Web Design</a>
+                <a href="#">Mobile App</a>
+                <a href="#">Motion Design</a>
+                <a href="#">Visual Design</a>
             </div>
             <div class="content_bottom">
                 <img src="assets/icons/decor.png" alt="decor" class="content_decor">
@@ -453,8 +491,8 @@
             <!-- Liên hệ -->
             <div class="footer-contact">
                 <h3>Liên hệ</h3>
-                <p>Email: contact@gmail.com</p>
-                <p>Hotline: 0123 456 789</p>
+                <p>Email: puoqnt@gmail.com</p>
+                <p>Hotline: +84 123 456 789</p>
                 <div class="footer-socials">
                     <a href="#"><i class="fab fa-facebook"></i></a>
                     <a href="#"><i class="fab fa-x-twitter"></i></a>
@@ -469,6 +507,6 @@
         </div>
     </footer>
 
-    <script src="assets/script/script.js"></script>
+    <script src="./assets/script/script.js"></script>
 </body>
 </html>

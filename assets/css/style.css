@@ -803,6 +803,7 @@ body {
 
   .toggle-icon {
     font-size: 30px;
+    cursor: pointer;
   }
   #toggle-menu-check:checked ~ .nav-overlay {
     display: block;
@@ -887,15 +888,16 @@ body {
 
   .category-menu {
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
   }
   .category-item {
     width: 45vw;
     min-width: 180px;
-    max-width: 320px;
+    max-width: 270px;
     font-size: 15px;
     height: 50px;
-    padding: 10px 10px;
+    padding: 10px 5%;
+    justify-content: left;
   }
 
   .card-item-header .item-title {
@@ -971,13 +973,28 @@ body {
 /* Mobile: <= 768px */
 @media (max-width: 768px) {
   .container {
-    padding: 0 4px;
+   width: 93vw;
   }
   .nav-bar {
-    flex-direction: column;
-    gap: 8px;
-    padding: 8px 0;
+    height: auto;
+    padding: 0 20px;
+    margin: 5px auto;
   }
+  .nav-toggle {
+    padding: 0;
+  }
+
+  .menu-home {
+    margin: 0 20px;
+  }
+
+  .icon-logo ~ a h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: auto;
+  }
+
   .menu-home div {
     width: 120px;
   }
@@ -990,19 +1007,33 @@ body {
     padding: 10px 8px;
     font-size: 17px;
   }
+
+  .search-popup {
+    width: 88vw;
+    right: -65%;
+  }
+
+  .search-box {
+    width: auto;
+  }
+
+  .toggle-icon {
+    cursor: pointer;
+  }
+
   .category-menu {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 8px;
-    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    place-items: center;
+    margin: 25px auto;
   }
   .category-item {
-    width: 100%;
-    min-width: unset;
-    max-width: unset;
-    font-size: 14px;
-    height: 44px;
-    padding: 8px 8px;
+    font-size: 16px;
+    height: 50px;
+    padding: 0 12%;
+    justify-content: left;
+    align-items: center;
   }
   .hero {
     grid-template-columns: 1fr;
@@ -1092,6 +1123,7 @@ body {
 @media (max-width: 480px) {
   .container {
     padding: 0 2px;
+    width: 100vw;
   }
 
   .nav-bar {
@@ -1134,14 +1166,17 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 8px;
     place-items: center;
+    margin: 10px auto;
   }
   
   .category-item {
     font-size: 15px;
     height: 50px;
-    padding: 10px 10px;
+    padding-left: 22px;
     width: 95%;
     margin: 5px auto;
+    justify-content: left;
+    align-items: center;
   }
 
   .slide .caption {
@@ -1152,8 +1187,8 @@ body {
   }
 
   .hero-intro .hero-avatar {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     margin: 15px 0;
   }
 
@@ -1185,7 +1220,7 @@ body {
   }
 
   .card-item-content .post-image {
-    height: auto;
+    height: 250px;
   }
  
   .card_contact {
